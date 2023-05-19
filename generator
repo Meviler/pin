@@ -1,0 +1,13 @@
+import random
+
+def pin():
+  print("""WELCOME TO...💳 🪪  📁 📱
+Security of the PIN Generator,
+Randomly generated with this simple Program,\n""")
+  while True:
+        pinCode = random.randint(1000, 9999)
+        print("Here is 4 digits PIN Number ::::\33[1;31m", 
+pinCode,"\33[0m")
+        input("-------------------------------------\nPress 'ENTER' to generate another PIN\n")
+
+pin()
